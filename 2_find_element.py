@@ -21,9 +21,10 @@ time.sleep(3)
 #find the email field by name page_email 
 email_tbx = driver.find_element_by_name("page_email")
 
-#input the email address
-email = "freok@hotmail.com"
-pwd = "zhang-h20070423"
+#input your email address
+email = "DO NOT USE THIS@EMAIL.ADDRESS"
+#Replace the password with your own password
+pwd = "DO NOT USE THIS PASSWORD" 
 email_tbx.send_keys(email)
 
 #find the password field by name page_password
